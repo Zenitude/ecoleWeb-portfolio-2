@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <header className="container-fluid">
+    <header className="container-fluid position-sticky top-0 border-bottom">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <button className="navbar-toggler ms-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

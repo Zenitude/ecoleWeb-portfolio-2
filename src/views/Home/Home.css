@@ -12,6 +12,10 @@ footer {
     margin: 0!important;
 }
 
+header {
+    z-index: 99;
+}
+
 #home, #services {
     min-height: 800px;
 }
