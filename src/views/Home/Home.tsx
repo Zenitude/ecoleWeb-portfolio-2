@@ -13,8 +13,8 @@ export default function Home() {
         <Header />
         <main>
             <section id="home" className="container-fluid text-light text-center bg-dark">
-              <div className="container p-5 d-flex flex-column justify-content-center align-items-center h-100">
-                <img src={man} alt="profil" className="my-3 mt-auto"/>
+              <div className="container p-5 d-flex flex-column justify-content-center align-items-center">
+                <img src={man} alt="profil" className="mb-3 mt-auto"/>
                 <h1>Salut, moi c'est John.</h1>
                 <p>Je suis développeur Front-End, spécialisé dans les différents frameworks JavaScript.</p>
                 <a href="#about" className="btn btn-secondary">En savoir plus</a>
@@ -43,8 +43,8 @@ export default function Home() {
             <section id="about" className="text-light bg-dark p-5 d-flex flex-column justify-content-center align-items-center">
               <h2 className="text-uppercase text-center">À propos</h2>
               <div className="row row-cols-1 row-cols-md-2 container">
-                <p className="p-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nostrum non at veritatis deleniti! Quisquam libero voluptates optio quas minima, dignissimos temporibus nam. Harum id, aliquam facere dolorem assumenda corporis!.</p>
-                <p className="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt itaque ex cumque fugiat perspiciatis nam ipsa necessitatibus quasi ullam delectus consequuntur ipsum ab, neque autem provident hic, corrupti unde impedit!</p>
+                <p className="p-0 p-lg-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas nostrum non at veritatis deleniti! Quisquam libero voluptates optio quas minima, dignissimos temporibus nam. Harum id, aliquam facere dolorem assumenda corporis!.</p>
+                <p className="p-0 p-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt itaque ex cumque fugiat perspiciatis nam ipsa necessitatibus quasi ullam delectus consequuntur ipsum ab, neque autem provident hic, corrupti unde impedit!</p>
               </div>
               <a href="#contact" className="btn btn-outline-light text-light">Contactez-moi</a>
             </section>

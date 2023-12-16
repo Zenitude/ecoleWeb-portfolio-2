@@ -16,6 +16,10 @@ footer {
     min-height: 800px;
 }
 
+#home div {
+    min-height: 800px;
+}
+
 #home img, #services img {
     width: 150px;
 }
