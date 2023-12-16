@@ -49,9 +49,9 @@ export default function Home() {
               <a href="#contact" className="btn btn-outline-light text-light">Contactez-moi</a>
             </section>
 
-            <section id="services">
-              <h2 className="text-uppercase">Mes services</h2>
-              <div className="row row-cols-1 row-cols-lg-3 container">
+            <section id="services" className="d-flex flex-column justify-content-center alig-items-center">
+              <h2 className="text-uppercase text-center my-5">Mes services</h2>
+              <div className="row container mx-auto p-5 g-5">
                 {
                   services.map((service, index) => (
                     <Service 
